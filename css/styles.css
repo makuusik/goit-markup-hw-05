@@ -141,6 +141,7 @@ img {
   text-decoration: none;
 
   color: var(--title-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts .link {
@@ -151,6 +152,7 @@ img {
   color: var(--primary-text-color);
 
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link:hover,
@@ -258,6 +260,8 @@ img {
 
   border: 1px solid transparent;
   cursor: pointer;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-button:hover,
@@ -292,6 +296,8 @@ img {
 
   border: none;
   cursor: pointer;
+
+  transition: color, background-color, 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filters .link:hover,
@@ -559,6 +565,8 @@ img {
 
 .service-list .item {
   width: 360px;
+
+  transition: box-shadow, 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .thumb-item:hover .overlay {
@@ -603,6 +611,8 @@ img {
   border: 1px solid var(--sec-border-color);
   border-radius: 4px;
   fill: var(--sec-border-color);
+
+  transition: fill, border, 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-link:hover,
@@ -650,6 +660,8 @@ img {
   height: 40px;
 
   fill: rgba(255, 255, 255, 0.1);
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-ico:hover,
@@ -726,6 +738,8 @@ img {
   border-radius: 50%;
 
   cursor: pointer;
+
+  transition: background-color, fill, 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button:focus,
